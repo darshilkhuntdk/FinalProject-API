@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/songsterFragmentLocation"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songsterToolbarFragment"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songsterTextArtistID"
+        android:text="Artist ID:"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:linksClickable="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songsterTextSongID"
+        android:text="Song ID:"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:linksClickable="true"
+        android:autoLink="web"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songsterTextSongTitle"
+        android:text="Song Title"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:autoLink="web"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save to Favourite"
+        android:id="@+id/songsterSaveToFavouriteButton"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Favourite"
+        android:id="@+id/songsterFavouriteButton"/>
+</LinearLayout>

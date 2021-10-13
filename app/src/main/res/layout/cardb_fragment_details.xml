@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:id="@+id/fragmentLocation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvCompanyName"
+        android:text="Company Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCompanyModel"
+        android:text="Company Model"
+        android:layout_below="@id/tvCompanyName"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textFontWeight="20"
+        android:id="@+id/tvmodelId"
+        android:text="Model ID"
+        android:layout_below="@id/tvCompanyModel"/>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btShop"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="@string/bt_shop"
+        android:layout_below="@id/tvmodelId"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btViewDetail"
+        android:text="@string/bt_view_details"
+        android:layout_below="@id/btShop"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btSave"
+        android:text="@string/bt_saved_search"
+        android:layout_below="@id/btViewDetail"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btViewSaveSearch"
+        android:text="@string/bt_view_fav"
+        android:layout_below="@id/btSave"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout"
+        android:gravity="top"
+        android:layout_gravity="top"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+    <TextView
+        android:id="@+id/songsterFavouriteSongTitle"
+        android:layout_alignParentTop="true"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/songsterFavouriteSongTitle"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_margin="15dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="300dp"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/songsterFavSongList"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/songsterFavouriteFragmentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/songsterFavSongList"/>
+
+</RelativeLayout>

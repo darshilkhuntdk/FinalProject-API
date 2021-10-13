@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="main_button_name_ss">Aller à Songster</string>
+    <string name="goToTriviaGame">Jeu Trivia</string>
+    <string name="instructionsTitle">Comment Jouer</string>
+    <string name="instructions">Pour Jouer \n1- Choisissez la quantité de questions\n2- Choisissez le type de questions"
+                    "\n3- Choisissez le niveau de questions\n4- Cliquez sur Commencer le jeu\n5- Vous verrez un nombre
+    de bouton qui corrrespond à la quantité de questions que vous avez choisi, cliquez sur chacune d\'entre elles\n6- Après avoir choisi une réponse
+    cliquez sur le bouton qui a la fleche\n7- Une fois le jeu fini, vous verrez votre score\n8- Entrez votre nom et cliquez sur Ok
+    \n9- Et Voila, Amusez-vous bien!!!</string>
+    <string name="howManyQuestions">Nombre de questions</string>
+    <string name="hintTextQuestionNumber">La valeur doit être inférieure ou égale à 50</string>
+    <string name="typeOfQuestions">Type de questions</string>
+    <string name="questionsMultiple">Choix multiple</string>
+    <string name="questionsTrueOrFalse">Vrai ou Faux</string>
+    <string name="levelOfQuestions">Niveau de questions</string>
+    <string name="easyQuestions">Facile</string>
+    <string name="mediumQuestions">Intermédiaire</string>
+    <string name="hardQuestions">Difficile</string>
+    <string name="startGoGame">Commencer le jeu</string>
+    <string name="toast_message">Veuillez entrer la quantité de questions inférieure ou égale à 50</string>
+    <string name="switch_message">Le type est maintenant multiple</string>
+    <string name="play_again">Jouer à nouveau</string>
+    <string name="question_details"> Détails de la question</string>
+    <string name="question_number">Numéro de la question</string>
+    <string name="cancel">Annuler</string>
+    <string name="scoreTitle">Score</string>
+    <string name="yourScoreIs">Ton Score est:  </string>
+    <string name="enterYourName">Entrez votre nom </string>
+    <string name="highScore">Meilleur Score </string>
+    <string name="delete">Supprimer </string>
+    <string name="deleteHighScore">Supprimer Score </string>
+    <string name="deleteHighScoreMsg">Etes vous sur de vouloir supprimer ce score? </string>
+    <string name="longPressToDelete">Appuyez longuement pour supprimer la ligne</string>
+    <string name="about">A propos</string>
+    <string name="open">Ouvrir</string>
+    <string name="close">Fermer</string>
+    <string name="titleTrivia">Jeu Trivia, Julie, Version 1.0</string>
+    <string name="hello_blank_fragment">Hello fragment vide</string>
+
+    <!-- Soccer Game Api  -->
+    <string name="on">L interrupteur est maintenant activé</string>
+    <string name="off">L interrupteur est maintenant éteint</string>
+    <string name="Open">ouverte</string>
+    <string name="Close">Fermer</string>
+    <string name="search">rechercher</string>
+    <string name="tg_help">Besoin d aide?</string>
+    <string name="delete_from_favourites">Supprimer du favori</string>
+    <string name="add_to_favourites">Ajouter aux Favoris</string>
+    <string name="dh_back_to_mainpage">Page d accueil</string>
+    <string name="link">relier</string>
+    <string name="date">Date</string>
+    <string name="description">La description</string>
+    <string name="help">Aider</string>
+    <string name="back">Dos</string>
+    <string name="favorite">préférée</string>
+    <string name="addToFav">Ajouter aux Favoris</string>
+    <string name="rating">Évaluer l application</string>
+    <string name="later">plus tard</string>
+    <string name="openInBrowser">ouvrir dans le navigateur</string>
+    <string name="removeFromFav">Supprimer du favori</string>
+    <string name="hide">Cacher</string>
+    <string name="main_page_discription">This page will show you news regarding latest soccer games.
+        \n1. Type the key word for the type of news you are looking for
+        \n2. Wait for while till all the results load
+        \n3. Click on desire news link and enjoy the latest news
+        \n4. Fianlly you can view detail news on browser and have option add it to your favorite</string>
+    <!--Soccer Game Api End -->
+
+</resources>

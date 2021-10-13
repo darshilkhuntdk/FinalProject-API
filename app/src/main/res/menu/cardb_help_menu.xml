@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/gosavedsearch"
+        android:title="Saved Seacrh"
+        android:icon="@drawable/svrsrc"
+        android:orderInCategory="75"
+        app:showAsAction="always"/>  <!-- This uses showAsAction=always, so look at icon= parameter -->
+
+    <item android:id="@+id/helpdialog"
+
+        android:icon="@drawable/help"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+
+        android:title="About Car Database"/>
+</menu>
+
+<!-- android:icon="@drawable/car_icon"
+        android:orderInCategory="400"
+        app:showAsAction="never" to merge
+
+<item android:id="@+id/help_item"
+        android:title="@string/about"
+        android:icon="@drawable/image_help"
+        android:orderInCategory="400"
+        app:showAsAction="never"/>
+-->

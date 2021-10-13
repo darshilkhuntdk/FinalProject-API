@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="car_database_app_name">Car Database V1</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="company_name">Company Name: </string>
+    <string name="company_model">Company Model: </string>
+    <string name="company_model_id">Company Model: </string>
+    <string name="bt_search">Search </string>
+
+    <string name="bt_shop">SHOP</string>
+    <string name="bt_view_details">View Details</string>
+    <string name="bt_view_fav">View Favourites </string>
+    <string name="bt_saved_search">Save To Favourites</string>
+    <string name="bt_saved_del">Delete Selected</string>
+    <string name="bt_godatabase">Go to Data Base</string>
+    <string name="help_msg">"Seacrh Cars By Comapny Name\nSelect Model from List\n"
+                        "Which will List the Model Details\n You can Shop The Selected Model\n"
+                        "Save the Search in the Database\n\n"
+                        "You can click the Favourites Button\n that will List your saved Search!"</string>
+
+
+    <string name="app_name">FinalProject</string>
+    <string name="main_button_name_ss">Go To Songster</string>
+    <string name="goToTriviaGame">Trivia Game</string>
+    <string name="instructionsTitle">How to play</string>
+    <string name="instructions">To play \n1- Choose the number of questions\n2- Choose the type of questions\n3- Choose the level of questions\n4- Click Start \n5- You will see a number of
+    button corresponding to the number of questions you have chosen, click on each one.\n6- After choosing an answer, click on the button with the arrow on it.\n7- When the game is over, you\'ll see your score.
+    \n8- And there you have it. Have fun!
+   </string>
+    <string name="howManyQuestions">Number of questions</string>
+    <string name="hintTextQuestionNumber">Value must be less than or equal to 50</string>
+    <string name="typeOfQuestions">Type of questions</string>
+    <string name="questionsMultiple">Multiple</string>
+    <string name="questionsTrueOrFalse">True or False</string>
+    <string name="levelOfQuestions">Level of questions</string>
+    <string name="easyQuestions">Easy</string>
+    <string name="mediumQuestions">Medium</string>
+    <string name="hardQuestions">Hard</string>
+    <string name="startGoGame">Start The QUiz</string>
+    <string name="toast_message">You should enter a number of questions less than or equal to 50</string>
+    <string name="switch_message">You changed the type to Multiple </string>
+    <string name="play_again">Play Again</string>
+    <string name="question_details"> Questions details</string>
+    <string name="question_number">Questions numbers</string>
+    <string name="cancel">Cancel</string>
+    <string name="scoreTitle">Score</string>
+    <string name="yourScoreIs">Your score is: </string>
+    <string name="enterYourName">Enter your Name </string>
+    <string name="highScore">High Score </string>
+    <string name="delete">Delete </string>
+    <string name="deleteHighScore">Delete High Score </string>
+    <string name="deleteHighScoreMsg">Are you sure you want to delete this score? </string>
+    <string name="longPressToDelete">Long press to delete the line</string>
+    <string name="about">About</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="titleTrivia">Trivia Game, Julie, Version 1.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SongsterInputArtistOrBandName">Enter Artist or Band Name</string>
+    <string name="SongsterInputArtistOrBandButton">Search</string>
+    <string name="songsterRemoveFromFavourite">Remove from favourite</string>
+    <string name="songsterFavouriteSongTitle">My Favourite Songs</string>
+    <string name="songsterTitle">"Songster "</string>
+
+    <string name="title_activity_soccer_main">SoccerActivityMain</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main4">MainActivity4</string>
+<!--Soccer Game Api-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="on">The switch is now on</string>
+    <string name="off">The switch is now off</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="search">Search</string>
+    <string name="soccerGames">Soccer Games</string>
+    <string name="tg_help">Need Help ?</string>
+    <string name="delete_from_favourites">Delete From Favourites</string>
+    <string name="add_to_favourites">Add To Favourites</string>
+    <string name="dh_back_to_mainpage">Home Page</string>
+    <string name="link">Link</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="help">Help</string>
+    <string name="back">Back</string>
+    <string name="favorite">Favourite</string>
+    <string name="addToFav">Add to favorites</string>
+    <string name="rating">RATE THIS APP</string>
+    <string name="later">LATER</string>
+    <string name="openInBrowser">Open in browser</string>
+    <string name="removeFromFav">Remove from favourite</string>
+    <string name="hide">Hide</string>
+    <string name="main_page_discription">This page will show you news regarding latest soccer games.
+        \n1. Type the key word for the type of news you are looking for
+        \n2. Wait for while till all the results load
+        \n3. Click on desire news link and enjoy the latest news
+        \n4. Fianlly you can view detail news on browser and have option add it to your favorite</string>
+    <!--Soccer Game Api End -->
+
+    <string name="songsterDeleteFromFavourite">Remove from favourite</string>
+
+</resources>
+

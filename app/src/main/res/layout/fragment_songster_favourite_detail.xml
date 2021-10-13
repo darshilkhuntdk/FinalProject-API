@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/songsterFragmentLocation"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songsterFToolbarFragment"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songsterFTextArtistID"
+        android:text="Artist ID:"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:linksClickable="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songsterFTextSongID"
+        android:text="Song ID:"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:linksClickable="true"
+        android:autoLink="web"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songsterFTextSongTitle"
+        android:text="Song Title"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:autoLink="web"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/songsterDeleteFromFavourite"
+        android:id="@+id/songsterRemoveFromFavouriteButton"
+        android:layout_margin="3dp"/>
+</LinearLayout>

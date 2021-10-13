@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Car  Ka Database V1</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Namsate  Duniya!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="company_name">"Comp Ka Nam:  "</string>
+    <string name="company_model">"Comp Ka Model:  "</string>
+    <string name="company_model_id">"Comp Ka Mod Id:  "</string>
+    <string name="bt_search">Dhoonddo</string>
+
+    <string name="bt_shop">KARIDO</string>
+    <string name="bt_view_details">Aur Pata Karo</string>
+    <string name="bt_view_fav">Pasand List</string>
+    <string name="bt_saved_search">Pasand Ko Save Kar</string>
+    <string name="bt_saved_del">Nikal List Me Se</string>
+    <string name="bt_godatabase">Chalo Gadi Kariden</string>
+    <string name="help_msg">\"Dhondo  Gadi Ko Comapny Nama se\\nSelect Model Kar List\\n\" \"Jo List the Model Details\\n You can Shop The Selected Model\\n\" +                         \"Save the Search in the Database\\n\\n\" +                         \"You can click the Favourites Button\\n that will List your saved Search!\"</string>
+    <string name="SongsterInputArtistOrBandName">Enter Artist or Band Name</string>
+    <string name="SongsterInputArtistOrBandButton">Search</string>
+    <string name="songsterRemoveFromFavourite">Remove from favourite</string>
+    <string name="songsterFavouriteSongTitle">My Favourite Songs</string>
+    <string name="songsterTitle">"Songster "</string>
+    <string name="songsterDeleteFromFavourite">Favourite me se nikalo</string>
+
+</resources>
+
